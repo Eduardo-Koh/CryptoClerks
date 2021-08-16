@@ -1,0 +1,90 @@
+.item1{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: -4%;
+    bottom: 20%;
+    animation: shake2 3s infinite;
+}
+
+.item2{
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 95%;
+    bottom: 20%;
+    animation: shake 3s infinite;
+}
+
+.item3{
+    position: absolute;
+    width: 15%;
+    left: 85%;
+    bottom: 35%;
+    animation: shake 3s infinite;
+}
+
+.item4{
+    position: absolute;
+    width: 25%;
+    bottom: -10%;
+    left: 82%;
+    animation: mymove 3s infinite;
+}
+
+.item5{
+    position: absolute;
+    width: 25%;
+    bottom: -10%;
+    left: -15%;
+    animation: mymove 3s infinite;
+}
+
+.item6{
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    right: 88%;
+    animation: shake 3s infinite;
+}
+
+@keyframes mymove {
+    0% {
+    transform: translateY(170px);
+    }
+    
+    50% {
+    transform: translateY(-40px);
+    }
+
+    100% {
+    transform: translateY(170px);
+    }
+  }
+
+  @keyframes shake {
+    0% {
+    transform: rotate(-100deg);
+    }
+    50% {
+    transform: rotate(-90deg)
+    }
+    100% {
+    transform: rotate(-100deg)
+    }
+    
+  }
+
+
+  @keyframes shake2 {
+    0% {
+    transform: rotate(10deg);
+    }
+    50% {
+    transform: rotate(5deg)
+    }
+    100% {
+    transform: rotate(10deg)
+    }
+    
+  }

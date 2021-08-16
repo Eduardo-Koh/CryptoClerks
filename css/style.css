@@ -1,0 +1,137 @@
+.margintop10{
+    margin-top: 10rem;
+}
+
+.margintop5{
+    margin-top: 5rem;
+}
+
+
+.marginbottom7{
+    margin-bottom: 7rem;
+}
+
+
+.fs65{
+    font-size: 65px;
+}
+
+.fs45{
+    font-size: 45px;
+}
+
+.button-clerked{
+    border: none;
+    box-shadow: grey 7px 6px 0px;
+}
+
+.button-clerked:active{
+    background-color: #a9a9a9;
+    border: none;
+    box-shadow: rgb(44, 44, 44) 4px 5px 0px;
+}
+
+.pright120{
+    padding-right: 120px;
+}
+
+.pleft120{
+    padding-left: 120px;
+}
+
+.pbottom20{
+    padding-bottom: 20px;
+}
+
+.pbottom60{
+    padding-bottom: 60px;
+}
+
+.pbottom80{
+    padding-bottom: 80px;
+}
+
+.ptop40{
+    padding-top: 100px;
+}
+
+.fontbuttonget{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.fotos {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+
+.fotos:hover{
+    transform: scale(1.1);
+}
+
+.nomargin{
+    margin: 0;
+}
+
+.lts3{
+    letter-spacing: 3px;
+}
+
+.lh{
+    line-height: 1.2;
+}
+
+.home{
+    position: relative;
+    z-index: 2;
+}
+
+.grey{
+    color: rgb(179, 179, 179);
+}
+
+.white{
+    color: white;
+}
+
+.backgroundpaperblack {
+    background-image: url('../imgs/Background-Web.png');
+    max-width: 100%;
+    position:relative;
+    color: white;
+    z-index: 1;
+  }
+  .backgroundpaperblack::after{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.6);
+        z-index:-1;
+  }
+
+.font-american{
+    font-family: 'American Typewriter';
+    src: url('../fonts/American\ Typewriter\ Regular.ttf');
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 425px) {
+    .fs-1m{font-size: 35px !important;}
+
+    .pright120{
+        padding-right: 0px;
+    }
+
+    .pleft120{
+        padding-left: 0px;
+    }
+
+    .fs-2m{font-size: 28px !important;}
+
+    .mmoviltop50{
+        margin-top: 50px !important;
+    }
+  }
